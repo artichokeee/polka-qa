@@ -5,3 +5,5 @@ export function parseProducts(csv) {
     return { id: Number(id), name, price: Number(price), stock: Number(stock) };
   });
 }
+
+export const PHOTO_DIR = "assets";
