@@ -1,0 +1,11 @@
+name: check
+on:
+  pull_request:
+
+jobs:
+  order-1042:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Amount of order 1042
+        run: bash check.sh
