@@ -12,3 +12,5 @@ export function gatewayAmount(totalRub, s = paymentSettings()) {
 }
 
 export const GATEWAY_TIMEOUT_MS = 5000;
+
+// ROUNDING=half-up since 3.6: 0.5 kopeck goes up.
