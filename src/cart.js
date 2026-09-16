@@ -16,3 +16,5 @@ export function removeItem(cart, id) {
 export function badge(cart) {
   return cart.items.reduce((n, i) => n + i.qty, 0);
 }
+
+export const EMPTY_CART_TEXT = "Корзина пуста";
