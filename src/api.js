@@ -1,5 +1,5 @@
 // HTTP API of the Polka shop (simplified for the course).
-export const VERSION = "3.5.0";
+export const VERSION = "3.6.0";
 
 export const routes = [
   ["GET", "/api/products"],
