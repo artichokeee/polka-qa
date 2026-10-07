@@ -8,6 +8,7 @@ export const routes = [
   ["POST", "/api/cart/items"],
   ["POST", "/api/orders"],
   ["POST", "/api/orders/:id/pay"],
+  ["GET", "/api/orders/:id"],
 ];
 
 export const RATE_LIMIT_PER_MIN = Number(process.env.RATE_LIMIT_PER_MIN ?? 120);
