@@ -12,3 +12,7 @@ export const routes = [
 ];
 
 export const RATE_LIMIT_PER_MIN = Number(process.env.RATE_LIMIT_PER_MIN ?? 120);
+
+export function withTrace(req, log) {
+  return (line) => log(`${line} trace_id=${req.traceId}`);
+}
