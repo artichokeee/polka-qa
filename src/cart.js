@@ -10,6 +10,7 @@ export function addItem(cart, item) {
 
 export function removeItem(cart, id) {
   cart.items = cart.items.filter((i) => i.id !== id);
+  cart.badge = badge(cart);
   return cart;
 }
 
