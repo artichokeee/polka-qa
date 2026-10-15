@@ -11,6 +11,6 @@ export function gatewayAmount(totalRub, s = paymentSettings()) {
   return Math.round((totalRub + Number(s.FEE_RUB ?? 0)) * unit);
 }
 
-export const GATEWAY_TIMEOUT_MS = 5000;
+export const GATEWAY_TIMEOUT_MS = 10000;
 
 // ROUNDING=half-up since 3.6: 0.5 kopeck goes up.
