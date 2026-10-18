@@ -19,3 +19,5 @@ export function badge(cart) {
 }
 
 export const EMPTY_CART_TEXT = "Корзина пуста";
+
+export const formatPrice = (rub) => `${rub} руб.`;
