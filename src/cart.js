@@ -21,3 +21,9 @@ export function badge(cart) {
 export const EMPTY_CART_TEXT = "Корзина пуста";
 
 export const formatPrice = (rub) => `${rub} руб.`;
+
+export function setQty(cart, id, qty) {
+  for (const i of cart.items) if (i.id === id) i.qty = qty;
+  cart.badge = badge(cart);
+  return cart;
+}
