@@ -1,4 +1,4 @@
-// Payment gateway client. The gateway expects the amount in AMOUNT_UNIT from config/payment.env.
+// Payment gateway client. Money settings are kept in one unit across configs. The gateway expects the amount in AMOUNT_UNIT from config/payment.env.
 import { readFileSync } from "node:fs";
 
 export function paymentSettings(path = "config/payment.env") {
