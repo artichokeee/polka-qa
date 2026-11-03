@@ -27,3 +27,5 @@ export function setQty(cart, id, qty) {
   cart.badge = badge(cart);
   return cart;
 }
+
+export const BADGE_ANIMATION_MS = 300;
