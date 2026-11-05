@@ -13,3 +13,5 @@ export const pageTitle = (p) => `${p.name} – Полка`;
 export const byPrice = (list, max) => list.filter((p) => p.price <= max);
 
 export const WISHLIST_ICON = "heart-outline";
+
+export const crumbs = (p) => ["Каталог", p.name];
