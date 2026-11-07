@@ -29,3 +29,5 @@ export function setQty(cart, id, qty) {
 }
 
 export const BADGE_ANIMATION_MS = 300;
+
+export const CART_COLUMNS_MOBILE = 1;
