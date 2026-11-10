@@ -1,0 +1,30 @@
+2026-11-10T12:41:00+03:00 INFO shop GET /api/cart 200 85ms trace_id=c610ff3c4b32a0ab
+2026-11-10T12:41:01+03:00 INFO shop GET /api/cart 200 32ms trace_id=28f86fce0be51d6e
+2026-11-10T12:41:02+03:00 INFO shop POST /api/orders 201 83ms order=2202 trace_id=22c12c599708edde
+2026-11-10T12:41:03+03:00 INFO shop GET /api/cart 200 121ms trace_id=c59e06306ecc9f3d
+2026-11-10T12:41:04+03:00 INFO shop GET /api/products/:id 200 49ms trace_id=8107530e904d8f7d
+2026-11-10T12:41:05+03:00 INFO shop GET /api/categories 200 24ms trace_id=779f296328a9f821
+2026-11-10T12:41:06+03:00 INFO shop GET /api/products 200 33ms trace_id=7960730e446132f8
+2026-11-10T12:41:07+03:00 INFO shop GET /api/products 200 127ms trace_id=93afaf3de68fbae9
+2026-11-10T12:41:08+03:00 INFO shop POST /api/cart/items 201 130ms trace_id=e5718c199a190c59
+2026-11-10T12:41:09+03:00 INFO shop GET /api/products/:id 200 54ms trace_id=4417b8496fc33ba4
+2026-11-10T12:41:10+03:00 INFO shop GET /api/products/:id 200 28ms trace_id=aa40bd45070df92c
+2026-11-10T12:41:11+03:00 INFO shop POST /api/orders 201 119ms order=2211 trace_id=f8f71198e2be4432
+2026-11-10T12:41:12+03:00 INFO shop POST /api/cart/items 201 60ms trace_id=f173d3ff7c569688
+2026-11-10T12:41:13+03:00 INFO shop GET /api/products/:id 200 86ms trace_id=f0fd61dda376bb1e
+2026-11-10T12:41:14+03:00 INFO shop GET /api/categories 200 89ms trace_id=a7a26bbb689735f7
+2026-11-10T12:41:15+03:00 INFO shop GET /api/products 200 34ms trace_id=b69e3239c2051728
+2026-11-10T12:41:16+03:00 INFO shop POST /api/cart/items 201 157ms trace_id=fa9c45547065bb43
+2026-11-10T12:41:17+03:00 INFO shop GET /api/cart 200 73ms trace_id=a7ca83fc69451468
+2026-11-10T12:41:18+03:00 ERROR shop POST /api/orders/:id/pay 402 1187ms order=2207 trace_id=c41d07a9e3b85f62 msg=payment.declined
+2026-11-10T12:41:19+03:00 INFO shop GET /api/products/:id 200 110ms trace_id=7d2f877d4d13eb37
+2026-11-10T12:41:20+03:00 INFO shop GET /api/products 200 159ms trace_id=3a7fb3343fd95bf6
+2026-11-10T12:41:21+03:00 INFO shop POST /api/orders 201 93ms order=2221 trace_id=8620d48fbe10ba24
+2026-11-10T12:41:22+03:00 INFO shop GET /api/products/:id 200 109ms trace_id=4a11bed5e1771367
+2026-11-10T12:41:23+03:00 INFO shop GET /api/cart 200 162ms trace_id=4cfce4c2136212f8
+2026-11-10T12:41:24+03:00 INFO shop GET /api/products/:id 200 85ms trace_id=9fae1c4437a4b8be
+2026-11-10T12:41:25+03:00 INFO shop POST /api/cart/items 201 118ms trace_id=27d886c100d04d37
+2026-11-10T12:41:26+03:00 INFO shop GET /api/categories 200 84ms trace_id=30a659908f186f8b
+2026-11-10T12:41:27+03:00 INFO shop GET /api/categories 200 159ms trace_id=82be898a0c6e84ab
+2026-11-10T12:41:28+03:00 INFO shop GET /api/cart 200 152ms trace_id=af45df67d314ad4b
+2026-11-10T12:41:29+03:00 INFO shop GET /api/products 200 84ms trace_id=84f052eba8c127ca
